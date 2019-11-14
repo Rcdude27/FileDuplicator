@@ -81,6 +81,7 @@
             this.btnSource.TabIndex = 4;
             this.btnSource.Text = "Browse";
             this.btnSource.UseVisualStyleBackColor = true;
+            this.btnSource.Click += new System.EventHandler(this.btnSource_Click);
             // 
             // btnDestination
             // 
@@ -90,6 +91,7 @@
             this.btnDestination.TabIndex = 5;
             this.btnDestination.Text = "Browse";
             this.btnDestination.UseVisualStyleBackColor = true;
+            this.btnDestination.Click += new System.EventHandler(this.btnDestination_Click);
             // 
             // btn_Duplicate
             // 
@@ -99,10 +101,17 @@
             this.btn_Duplicate.TabIndex = 6;
             this.btn_Duplicate.Text = "Duplicate";
             this.btn_Duplicate.UseVisualStyleBackColor = true;
+            this.btn_Duplicate.Click += new System.EventHandler(this.btn_Duplicate_Click);
             // 
             // ofdSource
             // 
             this.ofdSource.FileName = "ofdSource";
+            this.ofdSource.Filter = "All Files|*.*";
+            // 
+            // sfdDestination
+            // 
+            this.sfdDestination.FileName = "DuplicatedFile";
+            this.sfdDestination.Filter = "All Files|*.*";
             // 
             // frmMain
             // 
