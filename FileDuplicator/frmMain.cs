@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+// Change to allow first commit.
+
 namespace FileDuplicator
 {
     public partial class frmMain : Form
