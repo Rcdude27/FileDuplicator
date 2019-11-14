@@ -105,7 +105,6 @@
             // 
             // ofdSource
             // 
-            this.ofdSource.FileName = "ofdSource";
             this.ofdSource.Filter = "All Files|*.*";
             // 
             // sfdDestination
